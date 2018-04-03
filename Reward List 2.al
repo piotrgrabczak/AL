@@ -1,8 +1,8 @@
-page 50102 "Reward List"
+page 50106 "Reward List 2"
 {
     PageType = List;
-    SourceTable = Reward;
-    CardPageId = "Reward Card";
+    SourceTable = "Reward Table";
+    CardPageId = "Reward Card 2";
     layout
     {
         area(content)

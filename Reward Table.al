@@ -1,4 +1,4 @@
-table 50100 Reward
+table 50105 "Reward Table"
 {
     fields
     {
@@ -14,6 +14,13 @@ table 50100 Reward
             MinValue = 0;
             MaxValue = 100;
             DecimalPlaces = 2;
+        }
+        field(4; "Starting Date"; Date)
+        {
+            trigger OnValidate() begin
+                IF "Starting Date" < Today then
+                    Error('Starting date cannot be earlier than currently date: %1',Today);
+            end;
         }
     }
     keys

@@ -1,7 +1,7 @@
-page 50101 "Reward Card"
+page 50107 "Reward Card 2"
 {
     PageType = Card;
-    SourceTable = Reward;
+    SourceTable = "Reward Table";
     layout
     {
         area(content)
