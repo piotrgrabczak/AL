@@ -20,6 +20,14 @@ page 50107 "Reward Card 2"
                 {
                     ApplicationArea = All;
                 }
+                 field("Starting Date"; "Starting Date")
+                {
+                    ApplicationArea = All;
+                }
+                field(Comment;Comment)
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }

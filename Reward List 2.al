@@ -21,6 +21,10 @@ page 50106 "Reward List 2"
                 {
                     ApplicationArea = All;
                 }
+                 field("Starting Date"; "Starting Date")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }
