@@ -26,13 +26,13 @@ table 50105 "Reward Table"
         {
             trigger OnValidate() begin
                 IF xRec.Comment <> rec.Comment then
-                    Message('You changed the comment %1',rec.Comment); 
+                    Message('You have changed the comment %1',rec.Comment); 
             end;
         }
     }
     keys
     {
-        key(PK; "Reward ID")
+                key(PK; "Reward ID")
         {
             Clustered = true;
         }
