@@ -8,6 +8,7 @@ table 50105 "Reward Table"
         field(2; Description; Text[250])
         {
             NotBlank = true;
+            
         }
         field(3; "Discount Percentage"; Decimal)
         {
